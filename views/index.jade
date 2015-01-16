@@ -1,0 +1,14 @@
+extends layout
+
+block content
+	div(class='container')
+		div(class='jumbotron text-center')
+			h1 
+				span(class='fa fa-lock') Node Authentication
+			p
+				Login or Register with :
+			a(href='/login' class='btn btn-default')
+				span(class='fa fa-user') Local Login
+			a(href='/signup' class='btn btn-default')
+				span(class='fa fa-user') Local Signup
+			
